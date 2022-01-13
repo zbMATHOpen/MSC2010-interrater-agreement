@@ -23,3 +23,13 @@ zbmath-id, zbmath-msc, mr-id, mr-msc
 5641363, 90C35, MR2588370, 68R10 05C85 68W25 90C35
 5641364, 54H20, MR2588371, 37E10 37B10 37E45
 ```
+
+The meaning of the fields is:
+
+* **zbmath-id** Unique identifier from zbMATH Open. Prefix with `https://zbmath.org/` to visit additional information on the article. For example, `5635019` is associcated with https://zbmath.org/5635019
+* **zbmath-msc** space seperated list of [Mathemematics Subject Classifiction](https://zbmath.org/classification/) labels created by zbMATH Open staff. A description of the label can be retreived by prefixing `https://zbmath.org/classification/?q=`. For example, `55-06` is associated with https://zbmath.org/classification/?q=55-06
+* **mr-id** Unique identifier from MathReviews. Prefix with `https://mathscinet.ams.org/mathscinet-getitem?mr=` to retrieve additional information on the publication. For example, `MR3844132` is associated with https://mathscinet.ams.org/mathscinet-getitem?mr=MR2556072.
+* **mr-msc** space seperated list of [Mathemematics Subject Classifiction](https://zbmath.org/classification/) labels created by MathSciNet staff.
+
+The dataset was retrieved in 2016 by querying MathSciNet and zbMATH Open respectively.
+
