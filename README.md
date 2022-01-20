@@ -1,6 +1,6 @@
 # Mathematics Subject Classification interrater agreement dataset 
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5884592.svg)](https://doi.org/10.5281/zenodo.5884592)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5884600.svg)](https://doi.org/10.5281/zenodo.5884600)
 
 The Mathematics Subject Classification organizes Publications, Software, and Research Data into a hierarchical classification scheme maintained by MathSciNet (mr) and zbMATH Open (zbmath). According to the classification scheme, both organizations mr and zbmath agree on this classification and use labels to organize publications from mathematics and related fields. However, the classification of individual papers is done independently of each other. This dataset contains references to papers that occur in both collections (mr and zbmath) together with the respective classification labels.
 
