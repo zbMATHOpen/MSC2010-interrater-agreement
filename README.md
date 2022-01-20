@@ -1,5 +1,7 @@
 # Mathematics Subject Classification interrater agreement dataset
 
+The Mathematics Subject Classification organizes Publications, Software, and Research Data into a hierarchical classification scheme maintained by MathSciNet (mr) and zbMATH Open (zbmath). According to the classification scheme, both organizations mr and zbmath agree on this classification and use labels to organize publications from mathematics and related fields. However, the classification of individual papers is done independently of each other. This dataset contains references to papers that occur in both collections (mr and zbmath) together with the respective classification labels.
+
 The dataset is followed in the follwing form
 ```csv
 zbmath-id, zbmath-msc, mr-id, mr-msc
@@ -26,10 +28,15 @@ zbmath-id, zbmath-msc, mr-id, mr-msc
 
 The meaning of the fields is:
 
-* **zbmath-id** Unique identifier from zbMATH Open. Prefix with `https://zbmath.org/` to visit additional information on the article. For example, `5635019` is associcated with https://zbmath.org/5635019
-* **zbmath-msc** space seperated list of [Mathemematics Subject Classifiction](https://zbmath.org/classification/) labels created by zbMATH Open staff. A description of the label can be retreived by prefixing `https://zbmath.org/classification/?q=`. For example, `55-06` is associated with https://zbmath.org/classification/?q=55-06
+* **zbmath-id** Unique identifier from zbMATH Open. Prefix with `https://zbmath.org/` to visit additional information on the article. For example, `5635019` is associated with https://zbmath.org/5635019
+* **zbmath-msc** space separated list of [Mathemematics Subject Classifiction](https://zbmath.org/classification/) labels created by zbMATH Open staff. A description of the label can be retrieved by prefixing `https://zbmath.org/classification/?q=`. For example, `55-06` is associated with https://zbmath.org/classification/?q=55-06
 * **mr-id** Unique identifier from MathReviews. Prefix with `https://mathscinet.ams.org/mathscinet-getitem?mr=` to retrieve additional information on the publication. For example, `MR3844132` is associated with https://mathscinet.ams.org/mathscinet-getitem?mr=MR2556072.
 * **mr-msc** space seperated list of [Mathemematics Subject Classifiction](https://zbmath.org/classification/) labels created by MathSciNet staff.
 
-The dataset was retrieved in 2016 by querying MathSciNet and zbMATH Open respectively. Therefore, the classifications are based on the MSC 2010 version.
+The dataset was retrieved in 2016 by querying MathSciNet and zbMATH Open. Therefore, the classifications are based on the MSC 2010 version.
 
+This dataset was used in
+
+Schubotz M., Scharpf P., Teschke O., Kühnemund A., Breitinger C., Gipp B. (2020) AutoMSC: Automatic Assignment of Mathematics Subject Classification Labels. In: Benzmüller C., Miller B. (eds) Intelligent Computer Mathematics. CICM 2020. Lecture Notes in Computer Science, vol 12236. Springer, Cham. https://doi.org/10.1007/978-3-030-53518-6_15
+
+and is now released to the public as an addendum to the paper.
