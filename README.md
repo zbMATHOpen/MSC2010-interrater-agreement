@@ -31,5 +31,5 @@ The meaning of the fields is:
 * **mr-id** Unique identifier from MathReviews. Prefix with `https://mathscinet.ams.org/mathscinet-getitem?mr=` to retrieve additional information on the publication. For example, `MR3844132` is associated with https://mathscinet.ams.org/mathscinet-getitem?mr=MR2556072.
 * **mr-msc** space seperated list of [Mathemematics Subject Classifiction](https://zbmath.org/classification/) labels created by MathSciNet staff.
 
-The dataset was retrieved in 2016 by querying MathSciNet and zbMATH Open respectively.
+The dataset was retrieved in 2016 by querying MathSciNet and zbMATH Open respectively. Therefore, the classifications are based on the MSC 2010 version.
 
